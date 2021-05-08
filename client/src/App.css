@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+p, h5, h4{
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+
+
+
+
+
+/* HOMEPAGE */
+.search-btn{
+  height: 25px;
+  width: 25px;
+}
+
+
+a:hover{
+  text-decoration: none !important;
+}
+
+.product-img:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.product-text:hover{
+  cursor: pointer;
+}
+
+.no-product-div, .products-container{
+  /*min-height: 370px;*/
+  min-height: 430px;
+}
+
+
+@media (max-width: 500px) {
+  .products-filter-form{
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .select-container{
+    margin-left: 0 !important;
+    margin-top: 15px;
+  }
+
+  .footer-list{
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+}
+
+
+
+
+
+/*SIGN IN PAGE*/
+
+.signin-input{
+  width: 250px;
+}
+
+
+
+
+
+
+
+
+
+/* PRODUCT PAGE */
+.product-container div{
+  flex: 1;
+}
+
+
+
+@media (max-width: 840px) {
+  .product-container{
+    flex-direction: column;
+    margin-top: 35px;
+    margin-left: 0 !important;
+    display: initial;
+    align-items: flex-start !important;
+  }
+
+  .product-inner-container-1{
+    justify-content: initial !important;
+    margin-bottom: 45px;
+  }
+
+  .product-inner-container-2{
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+/* CART PAGE */
+.cart-inner-container-1{
+  width: 60vw;
+  min-height: 150px !important;
+}
+
+.cart-inner-container-2{
+  width: 15vw;
+}
+
+.cart-product-img{
+  width: 95px;
+}
+
+
+.handle-qty-btn{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+@media(max-width: 600px){
+  .cart-container{
+    flex-direction: column;
+  }
+  .cart-inner-container-1, .cart-inner-container-2{
+    width: initial !important;
+  }
+
+  .cart-inner-container-1{
+    min-height: initial !important;
+  }
+
+  .cart-sidebar{
+    border: none !important;
+    padding-left: 0 !important;
+    margin-top: 35px;
+    padding-top: 35px;
+    border-top: 1px solid #dee2e6 !important;
+  }
+}
+
+
+@media(max-width: 350px){
+  .cart-product{
+    flex-direction: column;
+  }
+
+  .cart-product-inner{
+      margin-left: 0 !important;
+      margin-top: 20px;
+  }
+
+  .cart-sidebar{
+      align-items: center !important;
+  }
+}
+
