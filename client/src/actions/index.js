@@ -169,7 +169,7 @@ export const findProductsByName = (input) => {
     }
 }
 */}
-// test
+
 export const findProductsByName = (input, filter) => {
     return async (dispatch) => {
         dispatch(findProductRequest(input))
